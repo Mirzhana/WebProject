@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Wrapper from './Components/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+ReactDOM.render(<Wrapper />, document.getElementById('root'));
